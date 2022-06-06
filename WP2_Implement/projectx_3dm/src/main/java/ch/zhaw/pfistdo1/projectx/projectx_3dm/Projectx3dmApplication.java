@@ -9,5 +9,4 @@ public class Projectx3dmApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(Projectx3dmApplication.class, args);
 	}
-
 }
