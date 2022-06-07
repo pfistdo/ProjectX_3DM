@@ -6,6 +6,8 @@ target/
 mvnw
 mvnw.cmd
 .mvn
+hs_*
+replay_*
 
 ### STS ###
 .apt_generated

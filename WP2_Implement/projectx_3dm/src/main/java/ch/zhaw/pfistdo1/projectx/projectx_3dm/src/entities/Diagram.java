@@ -1,4 +1,4 @@
-package ch.entities;
+package ch.zhaw.pfistdo1.projectx.projectx_3dm.src.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
