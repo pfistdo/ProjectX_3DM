@@ -7,6 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @DiscriminatorValue("complex")
 public class Complex extends Shape {
@@ -27,6 +29,7 @@ public class Complex extends Shape {
     public void setColor(String color) {
         this.color = color;
     }
+    @JsonIgnore
     public List<Shape> getShapes() {
         return shapes;
     }
