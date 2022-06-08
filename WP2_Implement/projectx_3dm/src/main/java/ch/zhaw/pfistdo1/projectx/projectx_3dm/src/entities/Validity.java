@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -18,8 +19,10 @@ public class Validity {
     private String country;
     
     @ManyToOne
+    @JoinColumn(name="diagram_id")
     private Diagram diagram;
     @ManyToOne
+    @JoinColumn(name="shape_id")
     private Shape shape;
     
     public Validity() {}
@@ -33,12 +36,14 @@ public class Validity {
     public void setCountry(String country) {
         this.country = country;
     }
+    @JsonIgnore
     public Diagram getDiagram() {
         return diagram;
     }
     public void setDiagram(Diagram diagram) {
         this.diagram = diagram;
     }
+    @JsonIgnore
     public Shape getShape() {
         return shape;
     }

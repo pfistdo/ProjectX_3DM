@@ -27,4 +27,10 @@ public class Complex extends Shape {
     public void setColor(String color) {
         this.color = color;
     }
+    public List<Shape> getShapes() {
+        return shapes;
+    }
+    public void setShapes(List<Shape> shapes) {
+        this.shapes = shapes;
+    }
 }

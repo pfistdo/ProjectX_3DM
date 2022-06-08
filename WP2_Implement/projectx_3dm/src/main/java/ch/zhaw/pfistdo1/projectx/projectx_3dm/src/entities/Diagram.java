@@ -6,10 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 public class Diagram {
@@ -21,8 +18,7 @@ public class Diagram {
     private String name;
     private String author;
 
-    @OneToMany
-    @JoinColumn(name = "diagram_id")
+    @OneToMany(mappedBy = "diagram")
     private List<Validity> validities;
 
     public Diagram() {}
@@ -42,7 +38,6 @@ public class Diagram {
     public void setAuthor(String author) {
         this.author = author;
     }
-    @JsonIgnore
     public List<Validity> getValidities() {
         return validities;
     }

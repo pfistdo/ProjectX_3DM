@@ -10,11 +10,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
-import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
@@ -27,8 +24,7 @@ public class Shape {
     
     private String name;
     
-    @OneToMany
-    @JoinColumn(name = "shape_id")
+    @OneToMany(mappedBy = "shape")
     private List<Validity> validities;
     @ManyToOne
     private Complex complex;
@@ -44,7 +40,6 @@ public class Shape {
     public void setName(String name) {
         this.name = name;
     }
-    @JsonIgnore
     public List<Validity> getValidities() {
         return validities;
     }
