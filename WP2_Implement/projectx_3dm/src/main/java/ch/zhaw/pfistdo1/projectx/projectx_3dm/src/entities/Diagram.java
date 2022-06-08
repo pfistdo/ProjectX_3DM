@@ -9,6 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 public class Diagram {
     
@@ -40,6 +42,7 @@ public class Diagram {
     public void setAuthor(String author) {
         this.author = author;
     }
+    @JsonIgnore
     public List<Validity> getValidities() {
         return validities;
     }

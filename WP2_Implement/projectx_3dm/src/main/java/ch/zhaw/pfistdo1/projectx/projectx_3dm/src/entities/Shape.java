@@ -14,6 +14,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name="dtype", discriminatorType = DiscriminatorType.STRING)
@@ -42,6 +44,7 @@ public class Shape {
     public void setName(String name) {
         this.name = name;
     }
+    @JsonIgnore
     public List<Validity> getValidities() {
         return validities;
     }
