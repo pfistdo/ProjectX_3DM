@@ -17,25 +17,33 @@ import ch.zhaw.pfistdo1.projectx.projectx_3dm.src.repositories.ShapeRepository;
 @RestController
 public class ShapeRestController {
 
-    @Autowired
-    ShapeRepository repository;
+	@Autowired
+	ShapeRepository repository;
 
-    @RequestMapping(value="/shapes", method=RequestMethod.GET)
-    public ResponseEntity<List<Shape>> getShape() {
-        List<Shape> result = repository.findAll();
-        if (!result.isEmpty()) {
+	@RequestMapping(value = "/shapes", method = RequestMethod.GET)
+	public ResponseEntity<List<Shape>> getShape() {
+		List<Shape> result = repository.findAll();
+		if (!result.isEmpty()) {
 			return new ResponseEntity<List<Shape>>(result, HttpStatus.OK);
-		} else {
-			return new ResponseEntity<List<Shape>>(HttpStatus.NOT_FOUND);
 		}
-    }
+		return new ResponseEntity<List<Shape>>(HttpStatus.NOT_FOUND);
+	}
 
-    @RequestMapping(value="/shapes/{id}", method=RequestMethod.GET)
+	@RequestMapping(value = "/shapes/{id}", method = RequestMethod.GET)
 	public ResponseEntity<Shape> getShape(@PathVariable("id") long id) {
 		Optional<Shape> result = repository.findById(id);
 		if (result.isEmpty()) {
 			return new ResponseEntity<Shape>(HttpStatus.NOT_FOUND);
-		} 
+		}
 		return new ResponseEntity<Shape>(result.get(), HttpStatus.OK);
+	}
+
+	@RequestMapping(value = "/shapes/edges", method = RequestMethod.GET)
+	public ResponseEntity<List<Object[]>> allEdges() {
+		var result = repository.findEdges();
+		if (!result.isEmpty()) {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<>(result, HttpStatus.OK);
 	}
 }

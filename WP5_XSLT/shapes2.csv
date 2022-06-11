@@ -1,0 +1,401 @@
+dtype,id,name,color,size,complex_id
+simple,1,Avenger,NULL,38,NULL
+simple,2,"Town & Country",NULL,50,NULL
+simple,3,"Savana 1500",NULL,62,NULL
+simple,4,Silverado,NULL,42,NULL
+simple,5,Cherokee,NULL,12,NULL
+simple,6,"Grand Prix",NULL,3,NULL
+simple,7,"Savana 1500",NULL,69,NULL
+simple,8,"Town Car",NULL,49,NULL
+simple,9,"Grand Prix",NULL,63,NULL
+simple,10,Exige,NULL,55,NULL
+simple,11,Forenza,NULL,50,NULL
+simple,12,SRX,NULL,20,NULL
+simple,13,"6 Series",NULL,53,NULL
+simple,14,Elan,NULL,37,NULL
+simple,15,"B-Series Plus",NULL,21,NULL
+simple,16,Elan,NULL,8,NULL
+simple,17,"Silverado 3500HD",NULL,61,NULL
+simple,18,Vantage,NULL,20,NULL
+simple,19,M6,NULL,58,NULL
+simple,20,Quattro,NULL,39,NULL
+simple,21,"6 Series",NULL,33,NULL
+simple,22,Tribute,NULL,10,NULL
+simple,23,Exige,NULL,35,NULL
+simple,24,Corolla,NULL,11,NULL
+simple,25,"Yukon XL 1500",NULL,26,NULL
+simple,26,CLK-Class,NULL,64,NULL
+simple,27,LSS,NULL,25,NULL
+simple,28,"350Z Roadster",NULL,55,NULL
+simple,29,CTS,NULL,34,NULL
+simple,30,"3500 Club Coupe",NULL,65,NULL
+simple,31,Prius,NULL,59,NULL
+simple,32,LR3,NULL,25,NULL
+simple,33,V90,NULL,35,NULL
+simple,34,"Range Rover",NULL,62,NULL
+simple,35,Matrix,NULL,68,NULL
+simple,36,DeVille,NULL,5,NULL
+simple,37,Insight,NULL,11,NULL
+simple,38,Impala,NULL,26,NULL
+simple,39,C30,NULL,27,NULL
+simple,40,Celica,NULL,58,NULL
+simple,41,Century,NULL,2,NULL
+simple,42,Outback,NULL,61,NULL
+simple,43,"Gran Sport",NULL,35,NULL
+simple,44,Protege5,NULL,22,NULL
+simple,45,"Express 2500",NULL,19,NULL
+simple,46,NSX,NULL,61,NULL
+simple,47,Mountaineer,NULL,11,NULL
+simple,48,Starion,NULL,43,NULL
+simple,49,Sonata,NULL,47,NULL
+simple,50,Taurus,NULL,72,NULL
+simple,51,SC,NULL,63,NULL
+simple,52,"Prius Plug-in Hybrid",NULL,18,NULL
+simple,53,Hombre,NULL,57,NULL
+simple,54,Truck,NULL,13,NULL
+simple,55,Continental,NULL,34,NULL
+simple,56,F-Series,NULL,68,NULL
+simple,57,Corvette,NULL,46,NULL
+simple,58,Riviera,NULL,61,NULL
+simple,59,A6,NULL,62,NULL
+simple,60,Titan,NULL,42,NULL
+simple,61,9000,NULL,26,NULL
+simple,62,Civic,NULL,61,NULL
+simple,63,X3,NULL,24,NULL
+simple,64,Passat,NULL,53,NULL
+simple,65,ES,NULL,13,NULL
+simple,66,"Caprice Classic",NULL,39,NULL
+simple,67,Tundra,NULL,1,NULL
+simple,68,Tribute,NULL,54,NULL
+simple,69,57,NULL,1,NULL
+simple,70,Crossfire,NULL,36,NULL
+simple,71,3000GT,NULL,2,NULL
+simple,72,Galant,NULL,65,NULL
+simple,73,GS,NULL,15,NULL
+simple,74,Hombre,NULL,17,NULL
+simple,75,"Mighty Max Macro",NULL,39,NULL
+simple,76,"Yukon Denali",NULL,33,NULL
+simple,77,Savana,NULL,3,NULL
+simple,78,"Park Avenue",NULL,54,NULL
+simple,79,"Dakota Club",NULL,44,NULL
+simple,80,Golf,NULL,34,NULL
+simple,81,Continental,NULL,29,NULL
+simple,82,"Express 2500",NULL,29,NULL
+simple,83,Highlander,NULL,66,NULL
+simple,84,Impreza,NULL,12,NULL
+simple,85,M5,NULL,64,NULL
+simple,86,"Navigator L",NULL,13,NULL
+simple,87,"Park Avenue",NULL,48,NULL
+simple,88,Amigo,NULL,27,NULL
+simple,89,GS,NULL,59,NULL
+simple,90,"Envoy XL",NULL,5,NULL
+simple,91,"Grand Cherokee",NULL,48,NULL
+simple,92,Neon,NULL,44,NULL
+simple,93,V70,NULL,43,NULL
+simple,94,Verano,NULL,45,NULL
+simple,95,Touareg,NULL,16,NULL
+simple,96,V50,NULL,47,NULL
+simple,97,9-3,NULL,53,NULL
+simple,98,"3 Series",NULL,13,NULL
+simple,99,Contour,NULL,65,NULL
+simple,100,Corolla,NULL,44,NULL
+simple,101,"Continental Flying Spur",NULL,69,NULL
+simple,102,MX-5,NULL,57,NULL
+simple,103,Riviera,NULL,26,NULL
+simple,104,E150,NULL,41,NULL
+simple,105,"VS Commodore",NULL,56,NULL
+simple,106,Legacy,NULL,23,NULL
+simple,107,F430,NULL,33,NULL
+simple,108,Charger,NULL,39,NULL
+simple,109,TrailBlazer,NULL,18,NULL
+simple,110,Golf,NULL,59,NULL
+simple,111,Durango,NULL,33,NULL
+simple,112,Rendezvous,NULL,68,NULL
+simple,113,MX-5,NULL,2,NULL
+simple,114,960,NULL,34,NULL
+simple,115,Escape,NULL,27,NULL
+simple,116,MKX,NULL,38,NULL
+simple,117,LS,NULL,11,NULL
+simple,118,Eos,NULL,5,NULL
+simple,119,944,NULL,9,NULL
+simple,120,Mirage,NULL,39,NULL
+simple,121,Riviera,NULL,62,NULL
+simple,122,"Town Car",NULL,17,NULL
+simple,123,G5,NULL,16,NULL
+simple,124,Clubman,NULL,30,NULL
+simple,125,9000,NULL,21,NULL
+simple,126,Estate,NULL,67,NULL
+simple,127,LS,NULL,65,NULL
+simple,128,L-Series,NULL,60,NULL
+simple,129,F-Series,NULL,40,NULL
+simple,130,"Ram Van B350",NULL,70,NULL
+simple,131,370Z,NULL,34,NULL
+simple,132,Windstar,NULL,42,NULL
+simple,133,Navigator,NULL,64,NULL
+simple,134,"Express 2500",NULL,3,NULL
+simple,135,Spyder,NULL,29,NULL
+simple,136,1500,NULL,50,NULL
+simple,137,Passat,NULL,13,NULL
+simple,138,Crossfire,NULL,29,NULL
+simple,139,"Town & Country",NULL,7,NULL
+simple,140,E-Class,NULL,3,NULL
+simple,141,3500,NULL,35,NULL
+simple,142,Elantra,NULL,64,NULL
+simple,143,Journey,NULL,20,NULL
+simple,144,Spectra,NULL,56,NULL
+simple,145,Defender,NULL,68,NULL
+simple,146,FX,NULL,32,NULL
+simple,147,RL,NULL,34,NULL
+simple,148,Versa,NULL,8,NULL
+simple,149,NSX,NULL,52,NULL
+simple,150,G,NULL,48,NULL
+simple,151,Pacifica,NULL,53,NULL
+simple,152,F150,NULL,71,NULL
+simple,153,Vanagon,NULL,61,NULL
+simple,154,"Grand Prix",NULL,17,NULL
+simple,155,"Grand Marquis",NULL,66,NULL
+simple,156,Corolla,NULL,25,NULL
+simple,157,CR-V,NULL,70,NULL
+simple,158,ES,NULL,69,NULL
+simple,159,Elantra,NULL,50,NULL
+simple,160,"Aero 8",NULL,21,NULL
+simple,161,B-Series,NULL,16,NULL
+simple,162,Express,NULL,44,NULL
+simple,163,CR-V,NULL,13,NULL
+simple,164,rio,NULL,65,NULL
+simple,165,Pilot,NULL,24,NULL
+simple,166,"5 Series",NULL,10,NULL
+simple,167,Mirage,NULL,35,NULL
+simple,168,E-Series,NULL,9,NULL
+simple,169,LS,NULL,16,NULL
+simple,170,3500,NULL,11,NULL
+simple,171,"Dakota Club",NULL,34,NULL
+simple,172,Discovery,NULL,65,NULL
+simple,173,S8,NULL,51,NULL
+simple,174,RX,NULL,35,NULL
+simple,175,Sable,NULL,19,NULL
+simple,176,Cobalt,NULL,40,NULL
+simple,177,"Type 2",NULL,62,NULL
+simple,178,S4,NULL,24,NULL
+simple,179,Z4,NULL,43,NULL
+simple,180,Mustang,NULL,6,NULL
+simple,181,"Cutlass Cruiser",NULL,13,NULL
+simple,182,"Silverado 3500",NULL,51,NULL
+simple,183,626,NULL,14,NULL
+simple,184,Gallardo,NULL,26,NULL
+simple,185,"924 S",NULL,30,NULL
+simple,186,Imperial,NULL,62,NULL
+simple,187,Z4,NULL,57,NULL
+simple,188,SLK-Class,NULL,19,NULL
+simple,189,Scoupe,NULL,52,NULL
+simple,190,LHS,NULL,7,NULL
+simple,191,TT,NULL,40,NULL
+simple,192,LR3,NULL,12,NULL
+simple,193,Malibu,NULL,43,NULL
+simple,194,"612 Scaglietti",NULL,53,NULL
+simple,195,Taurus,NULL,65,NULL
+simple,196,"Vandura 3500",NULL,52,NULL
+simple,197,M5,NULL,60,NULL
+simple,198,"Golf III",NULL,18,NULL
+simple,199,500,NULL,56,NULL
+simple,200,"Grand Cherokee",NULL,17,NULL
+complex,201,"Outlander Sport",Mauv,NULL,395
+complex,202,xB,Blue,NULL,378
+complex,203,GTO,Blue,NULL,253
+complex,204,"IS F",Crimson,NULL,278
+complex,205,"T100 Xtra",Khaki,NULL,230
+complex,206,RAV4,Orange,NULL,201
+complex,207,QX,Orange,NULL,327
+complex,208,Mazda6,Turquoise,NULL,279
+complex,209,TL,Teal,NULL,309
+complex,210,"G-Series G20",Puce,NULL,312
+complex,211,Matrix,Yellow,NULL,227
+complex,212,L300,Teal,NULL,318
+complex,213,MDX,Orange,NULL,334
+complex,214,Brat,Mauv,NULL,248
+complex,215,E-Class,Khaki,NULL,205
+complex,216,"Savana 3500",Yellow,NULL,328
+complex,217,Civic,Blue,NULL,311
+complex,218,Tundra,Teal,NULL,374
+complex,219,"Silverado 1500",Teal,NULL,331
+complex,220,"Crown Victoria",Indigo,NULL,274
+complex,221,Escort,Maroon,NULL,312
+complex,222,"Montero Sport",Yellow,NULL,299
+complex,223,CX-5,Indigo,NULL,234
+complex,224,"Express 2500",Crimson,NULL,342
+complex,225,626,Pink,NULL,358
+complex,226,"Envoy XL",Goldenrod,NULL,221
+complex,227,Lancer,Teal,NULL,228
+complex,228,F-Series,Puce,NULL,274
+complex,229,"Sierra 3500",Crimson,NULL,265
+complex,230,MKS,Red,NULL,209
+complex,231,S2000,Purple,NULL,204
+complex,232,"Caprice Classic",Yellow,NULL,265
+complex,233,Excursion,Crimson,NULL,326
+complex,234,M3,Goldenrod,NULL,364
+complex,235,Breeze,Turquoise,NULL,281
+complex,236,LR2,Pink,NULL,363
+complex,237,LX,Puce,NULL,218
+complex,238,"Focus ST",Crimson,NULL,203
+complex,239,Eos,Green,NULL,357
+complex,240,"Envoy XL",Crimson,NULL,302
+complex,241,Skylark,Mauv,NULL,385
+complex,242,Rio,Maroon,NULL,315
+complex,243,Fit,Blue,NULL,270
+complex,244,Malibu,Crimson,NULL,346
+complex,245,Lucerne,Pink,NULL,339
+complex,246,LS,Maroon,NULL,280
+complex,247,SJ,Turquoise,NULL,239
+complex,248,"Sportvan G20",Orange,NULL,322
+complex,249,Golf,Maroon,NULL,253
+complex,250,Trooper,Maroon,NULL,219
+complex,251,XL-7,Maroon,NULL,329
+complex,252,600,Indigo,NULL,311
+complex,253,Rabbit,Aquamarine,NULL,254
+complex,254,Endeavor,Green,NULL,209
+complex,255,Gemini,Violet,NULL,287
+complex,256,LaCrosse,Purple,NULL,305
+complex,257,"Golf III",Green,NULL,355
+complex,258,"Silverado 1500",Turquoise,NULL,306
+complex,259,Oasis,Mauv,NULL,309
+complex,260,"Avalanche 1500",Indigo,NULL,367
+complex,261,Terrain,Khaki,NULL,283
+complex,262,NSX,Pink,NULL,259
+complex,263,Terrain,Indigo,NULL,269
+complex,264,"Grand Prix",Goldenrod,NULL,212
+complex,265,LaCrosse,Turquoise,NULL,306
+complex,266,GX,Puce,NULL,227
+complex,267,"XJ Series",Blue,NULL,213
+complex,268,Electra,Maroon,NULL,397
+complex,269,A6,Orange,NULL,392
+complex,270,Prelude,Purple,NULL,209
+complex,271,Envoy,Fuscia,NULL,366
+complex,272,"Daewoo Lacetti",Indigo,NULL,225
+complex,273,"Grand Prix",Violet,NULL,291
+complex,274,"Colt Vista",Mauv,NULL,309
+complex,275,A3,Green,NULL,310
+complex,276,Tahoe,Teal,NULL,376
+complex,277,"1 Series",Green,NULL,208
+complex,278,"Grand Cherokee",Blue,NULL,221
+complex,279,LS,Maroon,NULL,277
+complex,280,Xterra,Violet,NULL,241
+complex,281,GS,Teal,NULL,213
+complex,282,F430,Goldenrod,NULL,293
+complex,283,Sonoma,Purple,NULL,283
+complex,284,CR-V,Green,NULL,275
+complex,285,XC70,Purple,NULL,246
+complex,286,QX,Goldenrod,NULL,398
+complex,287,"B-Series Plus",Maroon,NULL,324
+complex,288,GTI,Khaki,NULL,319
+complex,289,XC70,Goldenrod,NULL,298
+complex,290,"Avalanche 2500",Fuscia,NULL,319
+complex,291,SJ,Turquoise,NULL,300
+complex,292,SC,Khaki,NULL,320
+complex,293,"Ram 1500 Club",Puce,NULL,327
+complex,294,Bronco,Mauv,NULL,388
+complex,295,Cavalier,Mauv,NULL,373
+complex,296,Eclipse,Puce,NULL,395
+complex,297,Cabriolet,Red,NULL,336
+complex,298,"Range Rover",Maroon,NULL,264
+complex,299,Accent,Violet,NULL,268
+complex,300,Envoy,Red,NULL,284
+complex,301,Corvette,Pink,NULL,227
+complex,302,Viper,Purple,NULL,341
+complex,303,Shadow,Orange,NULL,292
+complex,304,"2500 Club Coupe",Crimson,NULL,384
+complex,305,Outback,Maroon,NULL,319
+complex,306,Outback,Purple,NULL,215
+complex,307,Seville,Green,NULL,363
+complex,308,F-Series,Aquamarine,NULL,261
+complex,309,Aztek,Crimson,NULL,386
+complex,310,Lanos,Crimson,NULL,267
+complex,311,Accent,Purple,NULL,381
+complex,312,Leaf,Fuscia,NULL,222
+complex,313,SC,Mauv,NULL,391
+complex,314,9-3,Goldenrod,NULL,232
+complex,315,Monaro,Maroon,NULL,292
+complex,316,Justy,Green,NULL,301
+complex,317,Altima,Puce,NULL,287
+complex,318,GranTurismo,Aquamarine,NULL,329
+complex,319,Discovery,Maroon,NULL,375
+complex,320,"Ram Van 2500",Teal,NULL,260
+complex,321,Jetta,Mauv,NULL,231
+complex,322,Boxster,Teal,NULL,359
+complex,323,SLS-Class,Puce,NULL,326
+complex,324,Prius,Violet,NULL,212
+complex,325,"Suburban 2500",Goldenrod,NULL,345
+complex,326,C70,Pink,NULL,318
+complex,327,TT,Puce,NULL,308
+complex,328,Explorer,Puce,NULL,213
+complex,329,SVX,Maroon,NULL,354
+complex,330,Fusion,Mauv,NULL,212
+complex,331,LX,Puce,NULL,330
+complex,332,Viper,Mauv,NULL,249
+complex,333,Safari,Purple,NULL,341
+complex,334,GX,Indigo,NULL,251
+complex,335,"Sierra 2500",Khaki,NULL,336
+complex,336,90,Maroon,NULL,390
+complex,337,EXP,Aquamarine,NULL,288
+complex,338,"XJ Series",Purple,NULL,398
+complex,339,Firebird,Crimson,NULL,236
+complex,340,"Grand Voyager",Yellow,NULL,354
+complex,341,IS,Turquoise,NULL,227
+complex,342,Tempo,Green,NULL,254
+complex,343,Mirage,Aquamarine,NULL,309
+complex,344,Concorde,Violet,NULL,255
+complex,345,Galant,Violet,NULL,313
+complex,346,Outlook,Mauv,NULL,235
+complex,347,JUKE,Crimson,NULL,320
+complex,348,S6,Pink,NULL,230
+complex,349,Mariner,Purple,NULL,346
+complex,350,C30,Puce,NULL,235
+complex,351,Cabriolet,Pink,NULL,353
+complex,352,Patriot,Puce,NULL,341
+complex,353,"Ram 2500",Fuscia,NULL,277
+complex,354,Impulse,Orange,NULL,295
+complex,355,Intrepid,Orange,NULL,261
+complex,356,"Grand Am",Indigo,NULL,349
+complex,357,"Miata MX-5",Goldenrod,NULL,343
+complex,358,Laser,Pink,NULL,205
+complex,359,Caravan,Teal,NULL,236
+complex,360,"Express 3500",Green,NULL,331
+complex,361,200,Green,NULL,311
+complex,362,Thunderbird,Turquoise,NULL,314
+complex,363,Forester,Puce,NULL,250
+complex,364,2e,Red,NULL,241
+complex,365,Escort,Aquamarine,NULL,339
+complex,366,Forester,Turquoise,NULL,257
+complex,367,Canyon,Turquoise,NULL,231
+complex,368,"G-Series 2500",Violet,NULL,259
+complex,369,Sorento,Aquamarine,NULL,259
+complex,370,"Hombre Space",Crimson,NULL,295
+complex,371,"LS Hybrid",Violet,NULL,302
+complex,372,Touareg,Aquamarine,NULL,318
+complex,373,Optima,Khaki,NULL,204
+complex,374,Bonneville,Indigo,NULL,359
+complex,375,Tahoe,Khaki,NULL,223
+complex,376,Bronco,Turquoise,NULL,238
+complex,377,A4,Maroon,NULL,358
+complex,378,1500,Goldenrod,NULL,306
+complex,379,Pilot,Khaki,NULL,356
+complex,380,Intrigue,Blue,NULL,265
+complex,381,Esprit,Yellow,NULL,298
+complex,382,Astro,Indigo,NULL,209
+complex,383,"Yukon XL 1500",Fuscia,NULL,277
+complex,384,Sportage,Turquoise,NULL,303
+complex,385,Rodeo,Fuscia,NULL,201
+complex,386,Sonata,Indigo,NULL,353
+complex,387,Volare,Orange,NULL,252
+complex,388,Avalon,Pink,NULL,323
+complex,389,"T100 Xtra",Turquoise,NULL,345
+complex,390,Xterra,Puce,NULL,280
+complex,391,SM,Pink,NULL,349
+complex,392,"Sierra 2500",Aquamarine,NULL,341
+complex,393,TT,Orange,NULL,329
+complex,394,"Club Wagon",Yellow,NULL,323
+complex,395,Jetta,Red,NULL,323
+complex,396,"Savana 2500",Orange,NULL,397
+complex,397,Sephia,Violet,NULL,375
+complex,398,CLS-Class,Mauv,NULL,298
+complex,399,Civic,Teal,NULL,375
+complex,400,Venture,Indigo,NULL,380

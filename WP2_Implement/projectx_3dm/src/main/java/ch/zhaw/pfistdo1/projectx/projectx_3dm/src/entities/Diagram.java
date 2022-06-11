@@ -21,10 +21,16 @@ public class Diagram {
     @OneToMany(mappedBy = "diagram")
     private List<Validity> validities;
 
+    public Diagram(String name) {
+        this.name = name;
+    }
     public Diagram() {}
 
     public long getId() {
         return id;
+    }
+    public void setId(long id) {
+        this.id = id;
     }
     public String getName() {
         return name;
