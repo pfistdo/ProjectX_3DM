@@ -40,13 +40,13 @@ public class DiagramRestController {
 		return new ResponseEntity<Diagram>(result.get(), HttpStatus.OK);
 	}
 
-	@GetMapping("/users/graph_nodes")
-	public ResponseEntity<List<Diagram>> getDiagramsAsNodes() {
-		List<Diagram> result = repository.findDiagramsAsNodes();
+	@GetMapping("/diagrams/nodes")
+	public ResponseEntity<List<Object[]>> getDiagramsAsNodes() {
+		List<Object[]> result = repository.findDiagramsAsNodes();
 		if (!result.isEmpty()) {
-			return new ResponseEntity<List<Diagram>>(result, HttpStatus.OK);
+			return new ResponseEntity<>(result, HttpStatus.OK);
 		} else {
-			return new ResponseEntity<List<Diagram>>(HttpStatus.NOT_FOUND);
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
 	}
 }

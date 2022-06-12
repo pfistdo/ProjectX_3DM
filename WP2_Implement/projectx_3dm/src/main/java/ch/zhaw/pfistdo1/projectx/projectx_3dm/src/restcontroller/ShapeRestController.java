@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -38,12 +39,12 @@ public class ShapeRestController {
 		return new ResponseEntity<Shape>(result.get(), HttpStatus.OK);
 	}
 
-	@RequestMapping(value = "/shapes/edges", method = RequestMethod.GET)
-	public ResponseEntity<List<Object[]>> allEdges() {
-		var result = repository.findEdges();
+	@GetMapping("/shapes/edges")
+	public ResponseEntity<List<Object[]>> getEdges() {
+		List<Object[]> result = repository.findEdges();
 		if (!result.isEmpty()) {
-			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+			return new ResponseEntity<>(result, HttpStatus.OK);
 		}
-		return new ResponseEntity<>(result, HttpStatus.OK);
+		return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 	}
 }

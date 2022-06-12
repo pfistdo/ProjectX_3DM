@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
-
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
         <html>
-
             <head>
                 <title>Project X - Shapes</title>
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,7 +14,6 @@
             </head>
 
             <body>
-
                 <header>
                     <div class="navbar navbar-dark bg-dark box-shadow">
                         <div class="container d-flex justify-content-between">
@@ -28,21 +25,28 @@
                 </header>
 
                 <div class="container">
-                    <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
-                        <xsl:for-each select="resultset/diagram">
-                            <!-- Class card -->
-                            <div class="col">
-                                <div class="card" style="width: 18rem;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Shape - <xsl:value-of select="id"/></h5>
-                                        <p class="card-text"><xsl:value-of select="dtype"/></p>
-                                        <p class="card-text"><xsl:value-of select="name"/></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </xsl:for-each>
-                    </div>
+                  <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Color</th>
+                            <th scope="col">Size</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <xsl:for-each select="resultset/diagram">
+                                <tr>
+                                <th scope="row"><xsl:value-of select="id"/></th>
+                                <td><xsl:value-of select="dtype"/></td>
+                                <td><xsl:value-of select="name"/></td>
+                                <td><xsl:value-of select="color"/></td>
+                                <td><xsl:value-of select="size"/></td>
+                                </tr>
+                            </xsl:for-each>
+                        </tbody>
+                    </table>
                 </div>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
